@@ -23,3 +23,7 @@ git brach -d second-branch
 git push origin --delete second branch
 
 java -jar jenkins.war
+echo "Building student-portal"
+ls -la
+echo "Contents of index.html:"
+sed -n '1,80p' index.html
