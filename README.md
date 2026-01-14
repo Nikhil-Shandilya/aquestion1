@@ -9,6 +9,8 @@ git push -u origin main
 git show HEAD:index.html | sed -n '1,50p'
 git log --oneline
 git remote -v
+git remote remove origin
+
 
 git checkout -b second-branch
 gedit index.html
