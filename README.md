@@ -19,3 +19,5 @@ git merge new-branch
 git push origin main
 git brach -d second-branch
 git push origin --delete second branch
+
+java -jar jenkins.war
