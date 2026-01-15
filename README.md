@@ -27,3 +27,8 @@ echo "Building student-portal"
 ls -la
 echo "Contents of index.html:"
 sed -n '1,80p' index.html
+
+sudo systemctl start jenkins
+sudo systemctl enable jenkins
+sudo systemctl status jenkins
+sudo cat
